@@ -7,7 +7,7 @@ const Header = () => {
             <div className={headerstyles.forest}></div>
             <div className={headerstyles.container}>
                 <h1>React JS marathon project</h1>
-                <p>This is Description!</p>
+                <p>This marathon will be 1 week duration!</p>
             </div>
         </header>
     )

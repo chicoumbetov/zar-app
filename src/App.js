@@ -2,7 +2,7 @@ import './App.css';
 import Header from './components/header';
 import Layout from './components/layout';
 import Footer from './components/footer';
-import HeaderBlock from './HeaderBlock';
+//import HeaderBlock from './HeaderBlock';
 import Pokemon from './assets/images/bg2.jpg';
 
 const App= () => {
@@ -33,6 +33,7 @@ const App= () => {
       />
       <Footer />
 
+    {/*
       <HeaderBlock 
         title="This is new Title"
         descr="This is new description"
@@ -43,7 +44,7 @@ const App= () => {
           //same as
           //hideBackground={true}
 
-      />
+      />*/}
     </>
   );
 }

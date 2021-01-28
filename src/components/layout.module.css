@@ -66,6 +66,8 @@
     background: #ffffffaa;
     padding: 2rem;
     text-align: justify;
+    background-image: url(../assets//images/bg2.jpg);
+    background-color: orange;
 }
 
 @media only screen and (max-width: 1149px) {
