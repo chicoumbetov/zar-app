@@ -5,7 +5,7 @@ import Footer from './components/Footer/footer';
 //import HeaderBlock from './HeaderBlock';
 import Pokemon from './assets/images/bg2.jpg';
 import Pokem from './assets/images/bg1.jpg';
-import logoIMG from './assets/logo.svg'
+//import logoIMG from './assets/logo.svg'
 import PokemonCard from './components/PokemonCard/pokemon';
 
 const POKEMONS = [
@@ -152,18 +152,20 @@ const App = () => {
       />
       <Layout
         id="rules"
-        title="This is First Layout"
+        title="Rules"
         //descr="Layout description 1 "
         urlBg={Pokemon}
       >
-        <p>2 players face off against one another</p>
-        <p>Each player has 5 cards in a hand and the aim is to capture each other</p>
-        <img src={logoIMG} alt="Logo" />
+        <p>In the game two players face off against one another, one side playing as "blue", the other as "red" on a 3x3 grid.
+Each player has five cards in a hand and the aim is to capture the opponent's cards by turning them into the player's own color of red or blue.
+
+To win, a majority of the total ten cards played (including the one card that is not placed on the board) must be of the player's card color. To do this, the player must capture cards by placing a card adjacent to an opponent's card whereupon the 'ranks' of the sides where the two cards touch will be compared. If the rank of the opponent's card is higher than the player's card, the player's card will be captured and turned into the opponent's color. If the player's rank is higher, the opponent's card will be captured and changed into the player's color instead. </p>
+        {/*<img src={logoIMG} alt="Logo" />*/}
       </Layout>
 
       <Layout
         id="cards"
-        title="This is Second Layout"
+        title="Cards"
         //descr="Layout description 2 "
         colorBg="#202736"
       >
