@@ -5,8 +5,11 @@ import cardBackSide from './assets/card-back-side.jpg';
 
 const PokemonCard = ({ id, img, name, type, values}) => {
     //console.log('###: props', props);
+    const handleClick = () => {
+        console.log('Click to Pokemon with name: '+name);
+    }
     return (
-        <div className={styles.root}>
+        <div className={styles.root} onClick={handleClick}>
             <div className={styles.pokemonCard}>
                 <div className={styles.cardFront}>
                     <div className={`${styles.wrap} ${styles.front} `}>
