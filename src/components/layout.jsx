@@ -1,7 +1,7 @@
 import React from 'react';
 import layoutstyles from './layout.module.css';
 
-const Layout = ({id, title, descr}) => {
+const Layout = ({id, title, descr, urlBg, colorBg}) => {
     return (
         <section id={id} className={layoutstyles.root} >
             <div className={layoutstyles.wrapper}>
@@ -13,7 +13,11 @@ const Layout = ({id, title, descr}) => {
                     <div className={layoutstyles.desc}>
                         <p>{descr}</p>
                     </div>
+                    
                 </article>
+                <div>
+                    <img src={urlBg} colorBg={colorBg} alt="pokemon"/>
+                </div>
             </div>
         </section>
     )
